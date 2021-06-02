@@ -30,6 +30,24 @@
     margin-right: 33px;
 }
 
+.basket_count {
+    position: relative;
+}
+
+.count {
+    position: absolute;
+    display: flex;
+    top: -20px;
+    right: -9px;
+    color: #fff;
+    background: #F16D7F;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 19px;
+    height: 19px;
+}
+
 .the__brand {
     background: #F1E4E6;
     height: 75vh;
