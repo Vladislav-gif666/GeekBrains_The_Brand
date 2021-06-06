@@ -225,3 +225,105 @@
     border: 1px solid #F26376;
     margin-bottom: 95px;
 }
+
+.info {
+    background: #222224;
+    color: #fbfbfb;
+}
+
+.info__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__box {
+    padding: 104px 0;
+    text-align: center;
+    max-width: 360px;
+}
+
+.info__caption {
+    font-size: 19.96px;
+    line-height: 24px;
+    padding: 28px 0 16px;
+    color: #fbfbfb;
+}
+
+.info__txt {
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+}
+
+.subscribe__bgd {
+    background: url(../img/Layer41.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.subscribe__bgd_shadow {
+    background: rgba(244, 244, 244, 0.7);
+}
+
+.subscribe__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe__quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 360px;
+}
+
+.subscribe__txt {
+    padding: 30px 0;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.subscribe__txt span {
+    font-style: italic;
+}
+
+.subscribe__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 57px 0;
+}
+
+.subscribe__info_txt {
+    padding-bottom: 32px;
+}
+
+
+.subscribe__caption {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.subscribe__subtitle {
+    font-size: 18px;
+    line-height: 167.2%;
+}
+
+.subscribe__form {
+    display: flex;
+}
+
+.subscribe__input {
+    background: #E1E1E1;
+    padding: 7px 64px 7px 22px;
+    border: none;
+    font-size: 14px;
+    line-height: 17px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 0.67;
+    
+}
+
+
