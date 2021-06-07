@@ -267,6 +267,7 @@
 .subscribe__wrap {
     display: flex;
     justify-content: space-between;
+    padding: 142px 0 133px;
 }
 
 .subscribe__quote {
@@ -316,14 +317,25 @@
 
 .subscribe__input {
     background: #E1E1E1;
-    padding: 7px 64px 7px 22px;
+    padding: 9px 64px 9px 22px;
     border: none;
     font-size: 14px;
     line-height: 17px;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
     opacity: 0.67;
-    
+}
+
+.subscribe__btn {
+    background: #F16D7F;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 17px 20px;
+    color: #fff;
+    cursor: pointer;
 }
 
 .footer__copyright {
@@ -364,6 +376,5 @@
  .social__icon_link:hover {
      color: #FFFFFF;
  }
-
 
 
