@@ -326,4 +326,44 @@
     
 }
 
+.footer__copyright {
+    background: #222;
+    color: #fff;
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+ }
+
+ .footer__copyright__social {
+    display: flex;
+ }
+
+ .social__icons {
+     background: #fbfbfb;
+     height: 30px;
+     width: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .social__icons:hover {
+     background: #F16D7F;
+ }
+
+ .social__icons:not(:last-child) {
+     margin-right: 8px;
+ }
+
+ .social__icon_link {
+     padding: 5px 8px;
+     color: #222;
+ }
+
+ .social__icon_link:hover {
+     color: #FFFFFF;
+ }
+
+
 
