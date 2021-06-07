@@ -238,8 +238,11 @@
 
 .info__box {
     padding: 104px 0;
-    text-align: center;
     max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .info__caption {
@@ -251,8 +254,10 @@
 
 .info__txt {
     font-weight: 300;
+    text-align: justify;
     font-size: 13.972px;
     line-height: 17px;
+    max-width: 292px;
 }
 
 .subscribe__bgd {
