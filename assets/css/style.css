@@ -96,6 +96,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 .cat__woomen {
@@ -261,7 +262,7 @@
 
 .subscribe__bgd {
     background: url(../img/Layer41.jpg) no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .subscribe__bgd_shadow {
