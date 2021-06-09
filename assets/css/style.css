@@ -2,8 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
+}
+
+main {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer {
+    margin-top: auto;
 }
 
 .header {
@@ -52,13 +64,13 @@
     height: 19px;
 }
 
-.the__brand {
+.intro {
     background: #F1E4E6;
     height: 75vh;
     margin-bottom: 65px;
 }
 
-.the__brand__wrap {
+.intro__wrap {
     display: flex;
     align-items: center;
     height: 100%;
@@ -67,12 +79,12 @@
     background-position: -228px 0;
 }
 
-.brand__text {
+.intro__text {
     width: 377px;
     
 }
 
-._text__brand {
+._text__intro {
     padding-left: 16px;
     border-left: 12px solid #F16D7F;
 }
@@ -384,3 +396,84 @@
  .social__icon_link:hover {
      color: #FFFFFF;
  }
+
+.breadcrumb__intro {
+    background: #F8F3F4;
+    padding: 60px 0;
+    margin-bottom: 51px;
+}
+
+.breadcrumb__wrap {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ .breadcrumb__caption {
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+ }
+
+ .breadcrumb__nav{
+     list-style: none;
+ }
+
+ .breadcrumb__list {
+     display: inline;
+ }
+
+ .breadcrumb__list + .breadcrumb__list::before {
+    color: #636363;
+    content: "/\00a0";
+}
+
+ .breadcrumb__nav-link {
+    color: #636363;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+ }
+
+ .breadcrumb__color {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+ }
+
+ .box__filter-sort {
+    display: flex;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    padding-left: 16px;
+    margin-bottom: 64px;
+ }
+
+ .filter {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-right: 304px;
+ }
+
+ .sort__nav {
+    display: inline;
+    cursor: pointer;
+ }
+
+ .sort__nav:not(:last-child) {
+     margin-right: 28px;
+ }
+
+ .sort__img {
+     padding: 0 0 0 10px;
+ }
+
+
+
+
