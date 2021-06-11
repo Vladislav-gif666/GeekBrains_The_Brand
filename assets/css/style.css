@@ -7,14 +7,14 @@
     font-family: 'Lato', sans-serif;
 }
 
-main {
+.page {
     overflow: hidden;
     display: flex;
     flex-direction: column;
     min-height: 100%;
 }
 
-footer {
+.footer {
     margin-top: auto;
 }
 
@@ -472,6 +472,41 @@ footer {
 
  .sort__img {
      padding: 0 0 0 10px;
+ }
+
+ .pagination {
+     display: flex;
+     justify-content: center;
+     padding-top: 48px;
+     margin-bottom: 96px;
+     
+ }
+
+ .pagination__nav {
+     display: flex;
+     justify-content: space-between;
+     width: 284px;
+     border: 1px solid #EBEBEB;
+     padding: 16px 15px;
+ }
+
+.pagination__number {
+    border:none;
+    background: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C4C4C4;
+    cursor: pointer;
+}
+
+.pagination__active {
+    color: #EF5B70;
+
+}
+
+ .pagination__button {
+     cursor: pointer;
  }
 
 
