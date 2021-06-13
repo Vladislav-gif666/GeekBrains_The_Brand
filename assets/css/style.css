@@ -11,7 +11,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 .footer {
@@ -169,6 +169,7 @@
 }
 
 .product__caption {
+    font-weight: normal
     font-size: 30px;
     line-height: 36px;
 }
@@ -247,7 +248,7 @@
 
 .info__wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -464,6 +465,7 @@
  .sort__nav {
     display: inline;
     cursor: pointer;
+    color: #6F6E6E;
  }
 
  .sort__nav:not(:last-child) {
