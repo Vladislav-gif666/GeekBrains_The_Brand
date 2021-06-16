@@ -1,0 +1,31 @@
+@import "sourse";
+
+.intro {
+    background: #F1E4E6;
+    height: 75vh;
+    margin-bottom: 65px;
+    &__wrap {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: flex-end;
+        background: url(../img/Header_man.png) no-repeat;
+        background-position: -228px 0;
+    }
+    &__text {
+        width: 402px;
+        padding-left: 16px;
+        border-left: 12px solid $colors;
+        line-height: 38px;
+        font-size: 32px;
+            &--bold {
+                font-weight: 900;
+                font-size: 48px;
+                line-height: 58px;
+            }
+            &--pink {
+                color: $colors;
+            }
+    }
+
+}
