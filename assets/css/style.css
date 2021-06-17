@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -96,7 +96,7 @@
 
 ._text__pink {
     color: #F16D7F;
-}
+} */
 
 .cat {
     display: flex;
