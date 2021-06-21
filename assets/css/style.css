@@ -162,15 +162,15 @@
 }
 
 .cat__woomen {
-    background: url(../img/for_woomen.jpg) no-repeat;
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/for_woomen.jpg) no-repeat;
 }
 
 .cat__men {
-    background: url(../img/for_men.jpg) no-repeat;
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/for_men.jpg) no-repeat;
 }
 
 .cat__kids {
-    background: url(../img/for_kids.jpg) no-repeat;
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/for_kids.jpg) no-repeat;
 }
 
 .cat__dosc {
@@ -194,11 +194,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(33, 22, 22, 0.7);
 }
 
 .cat__row { 
-    background: url(../img/accesories.jpg) no-repeat;
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/accesories.jpg) no-repeat;
     background-size: cover;
 }    
 
@@ -209,7 +208,6 @@
     align-items: center;
     justify-content: center;
     padding: 90px 0;
-    background: rgba(33, 22, 22, 0.7);
 }
 
 .product {
