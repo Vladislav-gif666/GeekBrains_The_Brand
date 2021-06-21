@@ -300,7 +300,7 @@
     background: rgba(58, 56, 56, 0.86);
 }
 
-.product__card_head:hover .product__overlay {
+.product__card:hover .product__overlay {
     opacity: 1;
 }
 
