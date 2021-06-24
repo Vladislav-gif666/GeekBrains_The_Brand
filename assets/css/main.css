@@ -16,8 +16,12 @@
   margin-right: 41px;
 }
 
-.header__wrap .header__right a:not(:last-child) {
+.header__wrap .header__right .right__navigation:not(:last-child) {
   margin-right: 33px;
+}
+
+.header__wrap .header__right .btn_menu {
+  cursor: pointer;
 }
 
 .header__wrap .header__right .basket_count {

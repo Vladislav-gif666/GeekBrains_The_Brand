@@ -8,9 +8,14 @@
                     margin-right: 41px;
                 }
                 .header__right{
-                    & a:not(:last-child) {
+                    & .right__navigation:not(:last-child) {
                     margin-right: 33px;
                 }
+
+                & .btn_menu {
+                    cursor: pointer;
+                }
+
                     .basket_count {
                         position: relative;
                         .count {

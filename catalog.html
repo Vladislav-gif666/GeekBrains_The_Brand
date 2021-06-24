@@ -41,31 +41,98 @@
                 </div>
             </div>
         </section>
-        <div class="container">
-            <section class="box__filter-sort">
-                <details class="filter">
-                    <summary>FILTER <img class="sort__img" src="assets/img/catalog/Vector.svg" alt=""></summary>
-                    <h3>CATEGORY</h3>
-                    <hr>
-                    <ul class="list__category">
-                        <li><a href="">Accessories</a></li>
-                        <li><a href="">Bags</a></li>
-                        <li><a href="">Denim</a></li>
-                        <li><a href="">Hoodies & Sweatshirts</a></li>
-                        <li><a href="">Jackets & Coats</a></li>
-                        <li><a href="">Polos</a></li>
-                        <li><a href="">Shirts</a></li>
-                        <li><a href="">Shoes</a></li>
-                        <li><a href="">Sweaters & Knits</a></li>
-                        <li><a href="">T-Shirts</a></li>
-                        <li><a href="">Tanks</a></li>
-                    </ul>
-                </details>
-                <ul class="sort">
-                    <li class="sort__nav">TRENDING NOW <img class="sort__img" src="assets/img/catalog/Vector2.svg" alt=""></li>
-                    <li class="sort__nav">SIZE <img class="sort__img" src="assets/img/catalog/Vector2.svg" alt=""></li>
-                    <li class="sort__nav">PRICE <img class="sort__img" src="assets/img/catalog/Vector2.svg" alt=""></li>
-                </ul>
+            <div class="container">
+                <section class="box__filter-sort">
+                    <div class="filter_wrap">
+                        <details class="filter">
+                        <summary>FILTER <svg class="filter__svg" width="15" height="10" viewBox="0 0 15 10" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667 8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167 0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667 0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10 4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333 0.833333 5.83333Z"/>
+                            </svg></summary>
+                            <details class="filter__category">
+                                <summary>CATEGORY</summary>
+                                <ul class="list__category">
+                                    <li><a href="">Accessories</a></li>
+                                    <li><a href="">Bags</a></li>
+                                    <li><a href="">Denim</a></li>
+                                    <li><a href="">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="">Jackets & Coats</a></li>
+                                    <li><a href="">Polos</a></li>
+                                    <li><a href="">Shirts</a></li>
+                                    <li><a href="">Shoes</a></li>
+                                    <li><a href="">Sweaters & Knits</a></li>
+                                    <li><a href="">T-Shirts</a></li>
+                                    <li><a href="">Tanks</a></li>
+                                </ul>
+                            </details>
+                            <details class="filter__category">
+                                <summary>BRAND</summary>
+                                <ul class="list__category">
+                                    <li><a href="">Accessories</a></li>
+                                    <li><a href="">Bags</a></li>
+                                    <li><a href="">Denim</a></li>
+                                    <li><a href="">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="">Jackets & Coats</a></li>
+                                    <li><a href="">Polos</a></li>
+                                    <li><a href="">Shirts</a></li>
+                                    <li><a href="">Shoes</a></li>
+                                    <li><a href="">Sweaters & Knits</a></li>
+                                    <li><a href="">T-Shirts</a></li>
+                                    <li><a href="">Tanks</a></li>
+                                </ul>
+                            </details>
+                            <details class="filter__category">
+                                <summary>DESIGNER</summary>
+                                <ul class="list__category">
+                                    <li><a href="">Accessories</a></li>
+                                    <li><a href="">Bags</a></li>
+                                    <li><a href="">Denim</a></li>
+                                    <li><a href="">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="">Jackets & Coats</a></li>
+                                    <li><a href="">Polos</a></li>
+                                    <li><a href="">Shirts</a></li>
+                                    <li><a href="">Shoes</a></li>
+                                    <li><a href="">Sweaters & Knits</a></li>
+                                    <li><a href="">T-Shirts</a></li>
+                                    <li><a href="">Tanks</a></li>
+                                </ul>
+                            </details>
+                    </details>
+            </div> 
+            <div class="sort">
+                    <div class="sort__nav">
+                        <input type="checkbox" class="sort__check" id="sort__check1">
+                        <label class="sort__open-close" for="sort__check1">TRENDING NOW <img class="sort__img" src="assets/img/catalog/Vector2.svg" alt=""></label>
+                        <div class="sort__check-box">
+                            <label><input class="check" type="checkbox">XS</label> 
+                            <label><input class="check" type="checkbox">S</label> 
+                            <label><input class="check" type="checkbox">M</label> 
+                            <label><input class="check" type="checkbox">L</label>
+                        </div>
+                    </div>
+                    <div class="sort__nav">
+                        <input type="checkbox" class="sort__check" id="sort__check2">
+                        <label for="sort__check2">SIZE <img class="sort__img" src="assets/img/catalog/Vector2.svg" alt="">
+                        </label>
+                        <div class="sort__check-box">
+                            <label><input class="check" type="checkbox">XS</label> 
+                            <label><input class="check" type="checkbox">S</label> 
+                            <label><input class="check" type="checkbox">M</label> 
+                            <label><input class="check" type="checkbox">L</label>
+                        </div> 
+                    </div>  
+                    <div class="sort__nav">
+                        <input type="checkbox" class="sort__check" id="sort__check3">
+                        <label for="sort__check3" value="yes">PRICE <img class="sort__img" src="assets/img/catalog/Vector2.svg" alt="">
+                        </label>
+                        <div class="sort__check-box">
+                            <label><input class="check" type="checkbox">XS</label> 
+                            <label><input class="check" type="checkbox">S</label> 
+                            <label><input class="check" type="checkbox">M</label> 
+                            <label><input class="check" type="checkbox">L</label>
+                        </div>
+                    </div>
+            </div>
+                
             </section>
             <section class="product__box_card">
                 <article class="product__card">
