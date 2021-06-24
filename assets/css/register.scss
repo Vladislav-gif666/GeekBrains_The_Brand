@@ -1,0 +1,78 @@
+.register__wrap {
+    display: flex;
+    justify-content: space-between;
+        .register__form {
+            flex-direction: column;
+            width: 360px;
+            h3 {
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 19px;
+                color: #222222;
+                margin-bottom: 20px;
+            }
+            input {
+                margin-bottom: 20px;
+            }
+            input.register__user {
+                width: 100%;
+                padding: 13px 17px 16px;
+            }
+
+            input::-webkit-input-placeholder {
+                font-style: normal;
+                font-weight: 300;
+                font-size: 13px;
+                line-height: 16px;
+                color: #B1B1B1;
+            }
+
+            p {
+                font-family: Lato;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 16px;
+            color: #B1B1B1;
+            }
+
+            .register__check {
+                padding-top: 11px;
+                margin-bottom: 13px;
+                 input {
+                     margin-right: 10px;
+                 }
+                 span {
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 13px;
+                    line-height: 16px;
+                    color: #B1B1B1;
+                    margin-right: 20px;
+                 }
+            }
+        }
+    .register__title {
+        max-width: 652px;
+        h3 {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 29px;
+            color: #000;
+            margin-bottom: 22px;
+        }
+        p {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 29px;
+            color: #000;
+        }
+
+        ul {
+            list-style-image: url(../img/list-style.svg);
+        }
+    }
+}

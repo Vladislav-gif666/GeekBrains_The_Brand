@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/register.css">
+    <title>Document</title>
+</head>
+<body>
+   <header class="header">
+       <div class="container header__wrap">
+
+           <div class="header__left">
+                <a href="/" class="left__navigation"><img src="assets/img/Logo.png" alt="logo"></a>
+                <a href="/" class="left__navigation"><img src="assets/img/Search.svg" alt="Search"></a>
+            </div>
+
+            <div class="header__right">
+                <span class="right__navigation btn_menu"><img src="assets/img/burger.svg" alt=""></span>
+                <a href="" class="right__navigation"><img src="assets/img/icon_people.svg" alt=""></a>
+                <a href="" class="right__navigation basket_count"><img src="assets/img/icon_basket.svg" alt=""><span class="count">5</span></a>
+            </div>
+
+       </div> 
+    </header>
+    <main class="page">
+        <section class="breadcrumb__intro">
+            <div class="container breadcrumb__wrap">
+                <h2 class="breadcrumb__caption">REGISTRATION</h2>
+                <div class="breadcrumb__navigation">
+                    <ul class="breadcrumb__nav">
+                        <li class="breadcrumb__list"><a href="" class="breadcrumb__nav-link">HOME</a></li>
+                        <li class="breadcrumb__list"><a href="" class="breadcrumb__nav-link">MEN</a></li>
+                        <li class="breadcrumb__list"><a href="" class="breadcrumb__nav-link breadcrumb__color">NEW ARRIVALS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="register__wrap container">
+            <form action="#" class="register__form">
+                <h3>Your Name</h3>
+                <input type="text" name="name" class="register__user" pattern="^[a-zA-Z]+$" placeholder="First Name" required>
+                <input type="text" name="Last Name" class="register__user" pattern="^[a-zA-Z]+$" placeholder="Last Name" required>
+                
+                <div class="register__check">
+                    <input type="radio" name="user" value="male" class="register__check_user"><span>Male</span>
+                    <input type="radio" name="user" value="female" class="register__check_user"><span>Female</span>
+                </div>
+
+                <h3>Login details</h3>
+                <input type="email" name="email" pattern="[\x1F-\xBF]*" placeholder="Email" class="register__user" required>
+                <input type="password" name="password" pattern="[\x1F-\xBF]*" placeholder="Password" class="register__user">
+                <p>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
+            </form>
+            <div class="register__title">
+            <h3>LOYALTY HAS ITS PERKS</h3>
+            <p>Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
+            <ul>
+                <li><span></span> 15% off welcome offer</li>
+                <li><span></span>Free shipping, returns and exchanges on all orders</li>
+                <li><span></span>$10 off a purchase on your birthday</li>
+                <li><span></span>Early access to products</li>
+                <li><span></span>Exclusive offers & rewards</li>
+            </ul>
+        </div>
+        </section>
+        
+    </main>
+    <footer class="footer">
+        <div class="subscribe__bgd">
+            <div class="subscribe__bgd_shadow">
+                <div class="container subscribe__wrap">
+                    <div class="subscribe__quote">
+                        <img src="assets/img/Intersect.png" alt="" class="ellipse">
+                        <p class="subscribe__txt">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span>a pulvinar purus condimentum</span> “</p>
+                    </div>
+                    <div class="subscribe__info">
+                        <div class="subscribe__info_txt">
+                            <h4 class="subscribe__caption">SUBSCRIBE</h4>
+                            <p class="subscribe__subtitle">FOR OUR NEWLETTER AND PROMOTION</p>
+                        </div>
+                        <form class="subscribe__form">
+                            <input class="subscribe__input" type="email" placeholder="Enter Your Email">
+                            <input class="subscribe__btn" type="submit" value="Subscribe">
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p class="copyright__txt">© 2021  Brand  All Rights Reserved.</p>
+            <div class="footer__copyright__social">
+                <div class="social__icons"><a href="" class="social__icon_link"><i class="fab fa-facebook-f"></i></a></div>
+                <div class="social__icons"><a href="" class="social__icon_link"><i class="fab fa-instagram"></i></a></div>
+                <div class="social__icons"><a href="" class="social__icon_link"><i class="fab fa-pinterest-p"></i></a></div>
+                <div class="social__icons"><a href="" class="social__icon_link"><i class="fab fa-twitter"></i></a></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
