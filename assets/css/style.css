@@ -105,7 +105,7 @@
       padding-bottom: 11px;
   }
 
-.cat {
+/* .cat {
     display: flex;
     flex-direction: column;
     margin-bottom: 96px;
@@ -116,28 +116,28 @@
     justify-content: space-between;
     margin-bottom: 30px;
     flex-wrap: wrap;
-}
+} */
 
-.cat__woomen {
+/* .cat__woomen {
     background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/for_woomen.jpg) no-repeat;
-}
+} */
 
-.cat__men {
+/* .cat__men {
     background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/for_men.jpg) no-repeat;
-}
+} */
 
-.cat__kids {
+/* .cat__kids {
     background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/for_kids.jpg) no-repeat;
-}
+}  */
 
-.cat__dosc {
+/* .cat__dosc {
     font-size: 24px;
     line-height: 29px;
     text-align: center;
     color: #F16D7F;
-}
+} */
 
-.cat_txt {
+/* .cat__txt {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -151,12 +151,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.cat__row { 
+/* .cat__row { 
     background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/accesories.jpg) no-repeat;
     background-size: cover;
-}    
+}     */
 
 ._cat__row {
     flex-grow: 1;

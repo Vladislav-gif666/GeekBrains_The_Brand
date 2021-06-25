@@ -376,7 +376,7 @@
 
 .intro {
   background: #F1E4E6;
-  height: 75vh;
+  height: calc(100vh - 77px);
   margin-bottom: 65px;
 }
 
@@ -392,7 +392,7 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
   background: url(../img/Header_man.png) no-repeat;
-  background-position: -228px 0;
+  background-position: -228px bottom;
 }
 
 .intro__text {
@@ -410,6 +410,82 @@
 }
 
 .intro__text--pink {
+  color: #F16D7F;
+}
+
+.cat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 96px;
+}
+
+.cat__group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cat__card {
+  width: 360px;
+  height: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cat__woomen {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url(../img/for_woomen.jpg) no-repeat;
+  background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/for_woomen.jpg) no-repeat;
+}
+
+.cat__men {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url(../img/for_men.jpg) no-repeat;
+  background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/for_men.jpg) no-repeat;
+}
+
+.cat__kids {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url(../img/for_kids.jpg) no-repeat;
+  background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/for_kids.jpg) no-repeat;
+}
+
+.cat__row {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url(../img/accesories.jpg) no-repeat;
+  background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/accesories.jpg) no-repeat;
+  background-size: cover;
+}
+
+.cat__txt {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.cat__dosc {
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
   color: #F16D7F;
 }
 
