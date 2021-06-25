@@ -90,8 +90,8 @@
   margin-bottom: 128px;
 }
 
-.cart__intro {
-  margin-bottom: 96px !important;
+.cart--intro {
+  margin-bottom: 96px;
 }
 
 .cart__inner {
@@ -454,6 +454,26 @@
           align-items: center;
 }
 
+.cat__inner {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 90px 0;
+}
+
 .cat__woomen {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 22, 22, 0.7)), to(rgba(33, 22, 22, 0.7))), url(../img/for_woomen.jpg) no-repeat;
   background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/for_woomen.jpg) no-repeat;
@@ -489,8 +509,60 @@
   color: #F16D7F;
 }
 
-.product_intro {
-  margin: 0;
+.product--intro {
+  margin-bottom: 0;
+}
+
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.product__title {
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+.product__title h2 {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.product__title p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #9F9F9F;
+}
+
+.product__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 360px;
+  margin-bottom: 30px;
+  background: #F8F8F8;
 }
 
 .slide {
