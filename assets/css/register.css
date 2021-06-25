@@ -5,6 +5,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 96px;
 }
 
 .register__wrap .register__form {
@@ -26,6 +27,7 @@
 
 .register__wrap .register__form input {
   margin-bottom: 20px;
+  border: 1px solid #A4A4A4;
 }
 
 .register__wrap .register__form input.register__user {
@@ -48,6 +50,7 @@
   font-size: 13px;
   line-height: 16px;
   color: #B1B1B1;
+  margin-bottom: 39px;
 }
 
 .register__wrap .register__form .register__check {
@@ -62,10 +65,25 @@
 .register__wrap .register__form .register__check span {
   font-style: normal;
   font-weight: 300;
-  font-size: 13px;
-  line-height: 16px;
-  color: #B1B1B1;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000;
   margin-right: 20px;
+}
+
+.register__wrap .register__form .register__btn {
+  padding: 16px 29px;
+  background: #F16D7F;
+  color: #fff;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.register__wrap .register__form .register__btn span {
+  margin-left: 20px;
 }
 
 .register__wrap .register__title {
@@ -87,9 +105,18 @@
   font-size: 24px;
   line-height: 29px;
   color: #000;
+  margin-bottom: 21px;
 }
 
-.register__wrap .register__title ul {
-  list-style-image: url(../img/list-style.svg);
+.register__wrap .register__title ul > li {
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.register__wrap .register__title ul > li span {
+  margin-right: 22px;
 }
 /*# sourceMappingURL=register.css.map */
