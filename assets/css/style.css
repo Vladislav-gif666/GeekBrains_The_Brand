@@ -242,6 +242,8 @@
     fill: #fff;
 }
 
+
+
 .product__overlay {
     position: absolute;
     top: 0;
@@ -287,6 +289,17 @@
     margin-bottom: 95px;
 }
 
+.product__btn:hover {
+    background: #F26376;
+    color: #fff;
+}
+
+.product__btn:active {
+    background: #F26376;
+    color: #fff;
+    box-shadow: 0px 5px 10px 2px rgb(34 60 80 / 20%) inset;
+}
+
 .info {
     background: #222224;
     color: #fbfbfb;
@@ -294,22 +307,28 @@
 
 .info__wrap {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 35px;
     flex-wrap: wrap;
 }
 
 .info__box {
-    padding: 104px 0;
+    padding: 104px 0 99px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.info__box>img {
+    margin-bottom: 24px;
+}
+
 .info__caption {
+    font-weight: normal;
     font-size: 19.96px;
     line-height: 24px;
-    padding: 28px 0 16px;
+    margin-bottom: 16px;
     color: #fbfbfb;
 }
 
@@ -333,14 +352,13 @@
 .subscribe__wrap {
     display: flex;
     justify-content: space-between;
-    padding: 142px 0 133px;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .subscribe__quote {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding-top: 97px;
+    margin-bottom: 126px;
     text-align: center;
     max-width: 360px;
 }
@@ -360,7 +378,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 57px 0;
+    padding-right: 100px;
 }
 
 .subscribe__info_txt {
@@ -391,6 +409,7 @@
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     opacity: 0.67;
+    width: 256px;
 }
 
 .subscribe__btn {
@@ -407,10 +426,13 @@
 
 .footer__copyright {
     background: #222;
+ }
+
+ .copyright {
     color: #fff;
     padding: 24px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
  }
 
@@ -524,7 +546,7 @@
  .pagination {
      display: flex;
      justify-content: center;
-     padding-top: 48px;
+     padding-top: 18px;
      margin-bottom: 96px;
      
  }
@@ -534,7 +556,11 @@
      justify-content: space-between;
      width: 284px;
      border: 1px solid #EBEBEB;
-     padding: 16px 15px;
+     padding: 12px 15px;
+ }
+
+ .padding-list {
+     padding-right: 10px;
  }
 
 .pagination__number {
