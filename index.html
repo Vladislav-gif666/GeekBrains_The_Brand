@@ -14,12 +14,10 @@
 <body>
    <header class="header">
        <section class="container header__wrap">
-
            <nav class="header__left">
                 <a href="/"><img src="assets/img/Logo.png" alt="logo"></a>
                 <a href="/"><img src="assets/img/Search.svg" alt="Search"></a>
             </nav>
-
             <nav class="header__right">
                 <input type="checkbox" id="menu">
                 <label class="menu__open right__navigation" for="menu" ><span></span></label>
@@ -62,8 +60,7 @@
             </nav>
                 <a href="register.html" class="right__navigation"><img src="assets/img/icon_people.svg" alt=""></a>
                 <a href="cart.html" class="right__navigation basket_count"><img src="assets/img/icon_basket.svg" alt=""><span class="count">5</span></a>
-            </nav>
-            
+            </nav>    
        </section> 
     </header>
     <main class="page">
@@ -77,7 +74,7 @@
             </div>
         </section>
         <div class="container">
-            <div class="cat">
+            <nav class="cat">
                 <section class="cat__group">
                     <div class="cat__woomen">
                         <div class="cat__card">
@@ -115,8 +112,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
-
+            </nav>
             <section class="product">
                 <div class="product__title">
                     <h2>Fetured Items</h2>
@@ -245,14 +241,14 @@
                     </article>
                 </section>
             </section>
-            <button class="product__btn">Browse All Product</button>
+            <button class="product__btn"><a href="catalog.html">Browse All Product</a></button>
         </div>
-        <div class="info">
-            <div class="container info__wrap">
+        <section class="info">
+            <div class="info__wrap container">
                 <div class="info__box">
                     <img src="assets/img/delivery.svg" alt="">
-                    <h4 class="info__caption">Free Delivery</h4>
-                    <p class="info__txt">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                    <h4>Free Delivery</h4>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
                 </div>
                 <div class="info__box">
                     <img src="assets/img/sales.svg" alt="">
@@ -265,30 +261,28 @@
                     <p class="info__txt">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
     <footer class="footer">
-        <div class="subscribe__bgd">
-            <div class="subscribe__bgd_shadow">
+        <section class="subscribe">
                 <div class="container subscribe__wrap">
-                    <div class="subscribe__quote">
-                        <img src="assets/img/Intersect.png" alt="" class="ellipse">
-                        <p class="subscribe__txt">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span>a pulvinar purus condimentum</span> “</p>
+                    <div class="subscribe__wrap--inner">
+                        <img src="assets/img/Intersect.png" alt="">
+                        <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span>a pulvinar purus condimentum</span> “</p>
                     </div>
-                    <div class="subscribe__info">
-                        <div class="subscribe__info_txt">
-                            <h4 class="subscribe__caption">SUBSCRIBE</h4>
-                            <p class="subscribe__subtitle">FOR OUR NEWLETTER AND PROMOTION</p>
+                    <div class="subscribe__wrap--form">
+                        <div class="subscribe__wrap--form_caption">
+                            <h4>SUBSCRIBE</h4>
+                            <p>FOR OUR NEWLETTER AND PROMOTION</p>
                         </div>
-                        <div class="subscribe__form">
-                            <input class="subscribe__input" type="email" placeholder="Enter Your Email">
-                            <button class="subscribe__btn">Subscribe</button>
-                        </div>
+                        <form action="#" class="subscribe__wrap--form_input">
+                            <input type="email" placeholder="Enter Your Email">
+                            <button>Subscribe</button>
+                        </form>
                         
                     </div>
                 </div>
-            </div>
-        </div>
+        </section>
 
         <div class="footer__copyright">
             <div class="container copyright">

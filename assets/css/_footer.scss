@@ -1,0 +1,79 @@
+@import "sourse";
+
+.subscribe {
+    background: linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)), url(../img/Layer41.jpg) no-repeat;
+    background-size: cover;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        &--inner {
+            padding-top: 97px;
+            margin-bottom: 126px;
+            text-align: center;
+            max-width: 360px;
+            p {
+                padding: 30px 0;
+                font-size: 20px;
+                line-height: 24px;
+                &>span {
+                    font-style: italic;
+                }
+            }
+        }
+        &--form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding-right: 100px;
+            &_caption {
+                padding-bottom: 32px;
+                h4 {
+                    font-weight: bold;
+                    font-size: 24px;
+                }
+                p {
+                    font-size: 18px;
+                    line-height: 167.2%;
+                }
+            }
+            &_input {
+                display: flex;
+                input {
+                    background: #E1E1E1;
+                    padding: 9px 64px 9px 22px;
+                    border: none;
+                    font-size: 14px;
+                    line-height: 17px;
+                    border-top-left-radius: 25px;
+                    border-bottom-left-radius: 25px;
+                    opacity: 0.67;
+                    width: 256px;
+                    outline: none;
+                    &:focus, &:hover {
+                        box-shadow: 0px 5px 10px 2px rgba(140, 147, 152, 0.4);
+                        transform: 0.5s;
+                    }
+                }
+                button {
+                    background: $colors;
+                    border: none;
+                    border-top-right-radius: 25px;
+                    border-bottom-right-radius: 25px;
+                    font-size: 14px;
+                    line-height: 17px;
+                    padding: 17px 20px;
+                    color: #fff;
+                    cursor: pointer;
+                    &:hover {
+                        box-shadow: 3px 4px 10px 2px rgba(217, 104, 119, 0.4);
+                        transform: 0.7s;
+                    }
+                    }
+                }
+            }
+        }
+    }
+

@@ -1,4 +1,5 @@
 @import "header";
+@import "footer";
 @import "cart";
 @import "sourse";
 @import "index";
@@ -108,4 +109,39 @@
 
 .product--box {
     margin-bottom: 128px;
+}
+
+.info {
+    background: #222224;
+    color: #fbfbfb;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 35px;
+        flex-wrap: wrap;
+    }
+    &__box {
+        padding: 104px 0 99px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img {
+            margin-bottom: 24px;
+        }
+        h4 {
+            font-weight: normal;
+            font-size: 19.96px;
+            line-height: 24px;
+            margin-bottom: 16px;
+            color: #fbfbfb;
+        }
+        p {
+            font-weight: 300;
+            text-align: justify;
+            font-size: 13.972px;
+            line-height: 17px;
+            max-width: 292px;
+        }
+    }
 }
