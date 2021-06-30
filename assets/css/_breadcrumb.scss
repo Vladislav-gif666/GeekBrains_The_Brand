@@ -1,0 +1,40 @@
+@import "sourse";
+
+.breadcrumb {
+    background: #F8F3F4;
+    padding: 60px 0;
+    &__intro {
+        margin-bottom: 51px;
+    }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        h2 {
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 29px;
+            color: $colors;
+        }
+    }
+    &__list {
+        display: inline;
+        & + &::before {
+            color: #636363;
+            content: "/\00a0";
+        }
+    }
+    &__nav-link {
+        color: #636363;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px; 
+    }
+    &__color {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: $colors;
+    }
+
+}

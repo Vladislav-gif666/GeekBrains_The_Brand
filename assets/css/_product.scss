@@ -1,3 +1,5 @@
+@import "sourse";
+
 @mixin product-p {
     font-style: normal;
     font-weight: 300;
@@ -25,9 +27,7 @@
             margin-bottom: 6px;
         }
         p {
-            font-size: 14px;
-            line-height: 17px;
-            color: #9F9F9F;
+            @include product-p;
         }
     }
 
@@ -118,5 +118,26 @@
                 transition: 0.5s;
             }
         }
+    }
+    &__about {
+        display: flex;
+        flex-direction: column;
+        max-width: 360px;
+        padding: 25px 0 20px 16px;
+    }
+    &__subtitle {
+        font-size: 13px;
+        line-height: 16px;
+        color: #000000;
+    }
+    &__desc {
+        @include product-p;
+        padding: 12px 0 18px;
+        max-width: 318px;
+    }
+    &__price {
+        font-size: 16px;
+        line-height: 19px;
+        color: $colors;
     }
 }

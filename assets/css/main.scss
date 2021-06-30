@@ -5,6 +5,7 @@
 @import "index";
 @import "product";
 @import "register";
+@import "breadcrumb";
 
 .slide {
     height: 777px;
@@ -144,4 +145,79 @@
             max-width: 292px;
         }
     }
+}
+
+.filter {
+    display: flex;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    margin-bottom: 64px;
+    &__wrap {
+        width: 360px;
+        margin-right: 30px;
+    }
+
+    &__item {
+        cursor: pointer;
+        padding-left: 16px;
+        width: 360px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        position: relative;
+        &[open] {
+            box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+            padding: 13px 16px 16px;
+            position: absolute;
+            background: #fff;
+            z-index: 2;
+        }
+        &[open]>summary {
+            margin-bottom: 16px;
+            cursor: pointer;
+            top: 16px;
+        }
+        &[open]>summary, &>svg {
+            color: $colors;
+            fill: $colors;
+        }
+    }
+    &__svg {
+        margin-left: 11px;
+    }
+    &__category {
+        margin-bottom: 24px;
+        summary {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 17px;
+            color: #6F6E6E;
+            padding:8px 0 11px 11px ;
+            border-left: 5px solid #EF5B70;
+            border-bottom: 1px solid #EBEBEB;
+            cursor: pointer;
+            margin-bottom: 24px;
+        }
+        &[open]>summary {
+            color: $colors;
+        }
+    }
+    .list__category{
+        li:not(:last-child) {
+            padding-bottom: 11px;
+        }
+        li>a {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6F6E6E;
+        padding-left: 17px;
+        }
+    }
+
 }

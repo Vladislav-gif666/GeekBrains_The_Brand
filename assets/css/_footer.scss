@@ -77,3 +77,37 @@
         }
     }
 
+.copyright {
+    background: #222;
+    &__footer {
+        color: #fff;
+        padding: 24px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        &-social {
+            display: flex;
+            .social__icon {
+                background: #fbfbfb;
+                height: 30px;
+                width: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover {
+                    background: $colors;
+                }
+                &:not(:last-child) {
+                    margin-right: 8px;
+                }
+                &-link {
+                    padding: 5px 8px;
+                    color: #222;
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
