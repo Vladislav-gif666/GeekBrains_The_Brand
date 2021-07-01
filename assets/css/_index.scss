@@ -11,7 +11,7 @@
         height: 100%;
         justify-content: flex-end;
         background: url(../img/Header_man.png) no-repeat;
-        background-position: -266px bottom;
+        background-position: 50% 50% ;
         background-size: contain;
 
     }
@@ -46,8 +46,10 @@
         margin-bottom: 30px;
         flex-wrap: wrap;
     }
+    &__item {
+        width: 31.5%;
+    }
     &__card {
-        width: 360px;
         height: 260px;
         display: flex;
         flex-direction: column;
