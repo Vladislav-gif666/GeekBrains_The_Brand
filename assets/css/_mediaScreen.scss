@@ -1,0 +1,77 @@
+@media (max-width: 1080px) {
+    .container {
+        padding: 0 2%;
+    }
+    .intro {
+        margin-bottom: 20px;    
+        &__wrap {
+            background-size: auto;
+        }
+        &__text {
+            padding: 0;
+            h1 {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            }
+            &--bold {
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 53px;
+            }
+        } 
+    }
+    .cat {
+        margin-bottom: 154px;
+        &__group {
+            margin-bottom: 19px;
+        }
+        &__link {
+            padding: 60px 0;
+        }
+        &__inner>a {
+            padding: 33px 0;
+        }
+    }
+    .product {
+        margin-bottom: 5px;
+        &__title {
+            margin-bottom: 72px;
+        }
+        &__box {
+            justify-content: space-around;
+        }
+        &__card {
+            width: 46%;
+        }
+        &__btn {
+            margin-bottom: 65px;
+        }
+    }
+
+    .info {
+        &__wrap {
+            flex-direction: column;
+            padding: 48px 0 16px !important;
+        }
+        &__box {
+            padding: 0 !important;
+            margin-bottom: 48px;
+        }
+        
+    }
+
+    .subscribe {
+        &__wrap {
+            flex-direction: column;
+            &--inner {
+                padding-top: 64px;
+                margin-bottom: 48px;
+            }
+            &--form {
+                padding: 0;
+                margin-bottom: 154px;
+            }
+        }
+    }
+}
