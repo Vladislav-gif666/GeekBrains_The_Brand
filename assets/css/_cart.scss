@@ -11,7 +11,7 @@
 }
 
 .cart__inner {
-    max-width: 652px;
+    width: 652px;
     .cart__inner_product {
         display: flex;
         box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
@@ -105,10 +105,13 @@
  
 }
 
-.shipping__adress {
-    padding-top: 17px;
+.shipping__wrap {
     display: flex;
     flex-direction: column;
+}
+
+.shipping__adress {
+    padding-top: 17px;
     width: 360px;
         h3 {
             font-weight: 300;

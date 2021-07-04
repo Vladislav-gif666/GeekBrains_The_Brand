@@ -103,9 +103,16 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 64px;
+        color: $colors;
     }
     .btn--description svg {
         fill: $colors;
+    }
+    .btn--description:hover  {
+        color: #fff;
+        svg {
+            fill: #fff;
+        }
     }
 }
 
