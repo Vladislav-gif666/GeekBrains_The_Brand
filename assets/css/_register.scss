@@ -89,9 +89,14 @@
             margin-bottom: 21px;
         }
 
-        ul>li {
+        .register__list_item {
+            align-items: baseline;
+            display: flex;
             margin-bottom: 16px;
             @include register-text;
+            p {
+                margin: 0;
+            }
             span {
                 margin-right: 22px;
             }

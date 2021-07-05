@@ -40,7 +40,8 @@
     &__card {
         display: flex;
         flex-direction: column;
-        width: 31.5%;
+        min-width: 31.5%;
+        max-width: 360px;
         margin-bottom: 27px;
         background: #F8F8F8;
     }
