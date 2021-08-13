@@ -1,1 +1,1 @@
-# GeekBrains_The_Brand
+# GeekBrains-The-Brand.io
